@@ -3,15 +3,31 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>exp tracker
-    </title>
+    <title>exp tracker</title>
+    <link rel="stylesheet" href="style.css">
+
+    
 </head>
 <body>
-     <h1> GAme Na</h1>
-     <h2> Arat na.</h2>
-     <h3>Tara </h3>
-     <h4>Sige</h4>
-     <h5>G NA</h5>
+     <header id="main-header">
+        <h1>Daily Expenses Tracker</h1>
+     </header>
+
+        <!--Login Form-->
+     <form action="process.php" method="post" enctype="application/x-www-form-urlencoded">
+        <div>
+            <label>Username:</label>
+            <input type="text" name="Username" id="Username" placeholder="Username" required>
+        </div>
+        <br>
+        <div>
+            <label>Password:</label>
+            <input type="password" name="Password" id="password" placeholder="Password" required>
+        </div>
+        <br>
+        <button type="Login" name="Login" id="Login">Login</button>
+
+     </form>
 
 </body>
 </html>
