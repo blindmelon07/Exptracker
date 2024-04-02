@@ -3,29 +3,35 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>exp tracker</title>
+    <title>Expenses Tracker</title>
+    <link rel="icon" href="img/Favicon.png" type="image/x-icon">
     <link rel="stylesheet" href="style.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
 
-    
+
 </head>
 <body>
      <header id="main-header">
         <h1>Daily Expenses Tracker</h1>
+        <hr>
+  
      </header>
-
         <!--Login Form-->
-     <form action="process.php" method="post" enctype="application/x-www-form-urlencoded">
+     <form action="">
+        <h2>Login</h2>
         <div>
-            <label>Username:</label>
+            <Strong><label>Username:</label></Strong>
             <input type="text" name="Username" id="Username" placeholder="Username" required>
+            <i class='bx bx-user-circle'></i>
         </div>
         <br>
         <div>
-            <label>Password:</label>
+            <Strong><label>Password:</label></Strong>
             <input type="password" name="Password" id="password" placeholder="Password" required>
+            <i class='bx bx-lock-alt'></i>
         </div>
         <br>
-        <button type="Login" name="Login" id="Login">Login</button>
+        <button type="sumbit" class="btn">Login</button>
 
      </form>
 
